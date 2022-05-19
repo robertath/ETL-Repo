@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FarmSystem.Test1</name>
+    </assembly>
+    <members>
+        <member name="T:FarmSystem.Test1.FarmContext">
+            <summary>
+            Context Class to represent interaction with data on database 
+            For future database extension requirement
+            </summary>
+        </member>
+        <member name="T:FarmSystem.Test1.Repositories.AnimalRepository">
+            <summary>
+            Repository Class to manage the models of farm on content data driver
+            </summary>
+        </member>
+        <member name="T:FarmSystem.Test.Factory.CowFactory">
+            <summary>
+            Factory to execute tasks on Farm of Cow inherited from Animal
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Factory.CowFactory.Run">
+            <summary>
+            Method to perform animal running
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Factory.CowFactory.Talk">
+            <summary>
+            Method to perform animal song
+            </summary>
+        </member>
+        <member name="T:FarmSystem.Test.Factory.HenFactory">
+            <summary>
+            Factory to execute tasks on Farm of Hen inherited from Animal
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Factory.HenFactory.Talk">
+            <summary>
+            Method to perform animal song
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Factory.HenFactory.Run">
+            <summary>
+            Method to perform animal running
+            </summary>
+        </member>
+        <member name="T:FarmSystem.Test.Factory.SheepFactory">
+            <summary>
+            Factory to execute tasks on Farm of Sheep inherited from Animal
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Factory.SheepFactory.Talk">
+            <summary>
+            Method to perform animal song
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Factory.SheepFactory.Run">
+            <summary>
+            Method to perform animal running
+            </summary>
+        </member>
+        <member name="T:FarmSystem.Test.Factory.HorseFactory">
+            <summary>
+            Factory to execute tasks on Farm of Horses inherited from Animal
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Factory.HorseFactory.Talk">
+            <summary>
+            Method to perform animal song
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Factory.HorseFactory.Run">
+            <summary>
+            Method to perform animal running
+            </summary>
+        </member>
+        <member name="T:FarmSystem.Test.Interfaces.Services.IMilkableAnimal">
+            <summary>
+            Interface which exposes method to milk animals
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Services.EmydexFarmSystem.MakeNoise">
+            <summary>
+            Method to perform song all animals that are on the farm
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Services.EmydexFarmSystem.MilkAnimals">
+            <summary>
+            Method to perform milking task for those who produce Milk
+            </summary>
+        </member>
+        <member name="M:FarmSystem.Test.Services.EmydexFarmSystem.ReleaseAllAnimals">
+            <summary>
+            Method to perform left of all farm animals
+            </summary>
+        </member>
+    </members>
+</doc>
